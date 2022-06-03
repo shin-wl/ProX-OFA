@@ -1,0 +1,35 @@
+{
+	"initialization": {
+		"bn_track_running_stats": true, 
+		"train_only_current_stage": false, 
+		"keep_channel_order": false, 
+        "expanding_kernels": true,
+        "input_dim": [4,112,112,112],
+		"output_n": 3, 
+		"max_depth": 3, 
+		"lr": 0.001, 
+        "sections": [9],
+        "initial_out_channel": 8,
+		"kernels": [3,5], 
+		"pretrained_weights_dir": "", 
+		"pretrained_optimizer_dir": "",
+        "pretrained_logger_dir": ""
+	}, 
+	"ofa_settings": {
+		"mode": "expand", 
+		"stage_name": "full-ofa", 
+		"train_full_dimension": true, 
+		"mixed_resolution": true, 
+		"sort_channel": false, 
+		"extend_training": 0, 
+		"epoch_per_stage": 15, 
+		"choices": {
+			"depth_choices": [1], 
+			"width_choices": [0,1], 
+			"kernels_choices": [3,5], 
+			"resolution_choices": [80,96,112]
+		}, 
+		"save_log_dir": "logs", 
+		"save_weights_dir": "weights"
+	}
+}
