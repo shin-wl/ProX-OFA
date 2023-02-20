@@ -5,7 +5,7 @@ import numpy as np
 import copy
 from sklearn import metrics
 from elastic_mobilenet import InvertedResidual
-from elastic_resnet import ResidualBlock
+# from elastic_resnet import ResidualBlock
 
 class AverageMeter(object):
     """
