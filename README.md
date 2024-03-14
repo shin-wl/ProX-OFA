@@ -8,6 +8,17 @@ This repository hosts the official PyTorch implementation of the paper: "ProX: A
 
 (Released on September 2022)
 
+```
+@INPROCEEDINGS{LIM2022PROX,
+  author={Lim, Shin Wei and Seng Chan, Chee and Mohd Faizal, Erma Rahayu and Howg Ewe, Kok},
+  booktitle={2022 IEEE International Conference on Image Processing (ICIP)}, 
+  title={ProX: A Reversed Once-for-All Network Training Paradigm for Efficient Edge Models Training in Medical Imaging}, 
+  year={2022},
+  pages={2211-2215},
+  doi={10.1109/ICIP46576.2022.9897495}
+}
+```
+
 #### Neurocomputing | [Article](https://www.sciencedirect.com/science/article/abs/pii/S0925231224002832)
 
 (Released on March 2024)
